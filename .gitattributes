@@ -1,0 +1,5 @@
+# 主程序是压缩打包后的 JS，让 linguist 正常计入，避免整仓被识别成 CSS
+assets/*.js linguist-detectable=true
+assets/*.js linguist-generated=false
+assets/*.js linguist-language=JavaScript
+fonts-code.css linguist-detectable=true
